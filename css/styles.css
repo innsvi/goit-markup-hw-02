@@ -22,7 +22,6 @@ body {
     color: var(--primary-text-color);
     font-family: 'Raleway';
     font-size: 26px;
-    font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -57,33 +56,30 @@ body {
     color:#2196F3
 }
 
-.head-section{
+.hero{
     background-color: #2F303A;
 }
-.main-title{
+.hero-title{
     color: var(--white-text-color);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     line-height: 1.4;
 }
 .section-button{
+    cursor: pointer;
     background-color: var(--accent-color);
     color: var(--white-text-color);
-    font-weight: 700;
     text-align: center;
-    size: 16px;
+    font-size: 16px;
     line-height: 1.9;
-    align-items: center;
     letter-spacing: 0.06em;
 }
 
 .section-title{
     text-;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -96,10 +92,9 @@ body {
 }
 
 .subtitle{
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
-    etter-spacing: 0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -111,19 +106,18 @@ body {
     letter-spacing: 0.03em;
 }
 
-.hero-title{
-    font-weight: 700;
+.team-title{
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.hero-list{
+.team-list{
     list-style: none;
 }
 
-.hero-subtitle{
+.team-subtitle{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -131,7 +125,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.hero-text{
+.team-text{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
@@ -167,7 +161,6 @@ body {
 }
 
 .features-item{
-    background-color: #757575;
     color: #212121;
     font-weight: 500;
     font-size: 16px;
@@ -177,7 +170,6 @@ body {
 }
 
 .examples-subtitle{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
